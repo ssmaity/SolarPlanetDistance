@@ -7,7 +7,7 @@ n = data[:,0]
 a = data[:,1]
 
 def TitiusBode(n, p, q):
-  return p+q*2**n
+  return p + q*2**n
   
 seed = [0.0, 0.0]
 
