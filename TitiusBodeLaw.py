@@ -2,7 +2,7 @@ from numpy import *
 import scipy.optimize as op
 import matplotlib.pyplot as plt
 
-data = loadtxt('planetdistance.dat')
+data = loadtxt('planetdistances.dat')
 n = data[:,0]
 a = data[:,1]
 
