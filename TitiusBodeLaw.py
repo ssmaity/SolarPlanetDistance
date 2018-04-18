@@ -6,6 +6,8 @@ data = loadtxt('planetdistances.dat')
 n = data[:,0]
 a = data[:,1]
 
+x = arange(0.0, 10.0, 0.10)
+
 def TitiusBode(n, p, q):
   return p + q*2**n
   
@@ -16,6 +18,7 @@ p, q = par[0], par[1]
 print p, q
 
 plt.scatter(n, TitiusBode(n, p, q))
+plt.plot(x, TitiusBode(x, p, q), 'r-')
 plt.xlim(0.5, 10.0)
 plt.ylim(0.0, 50.0)
 plt.xlabel('planet index (n)')
