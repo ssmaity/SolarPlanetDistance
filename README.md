@@ -1,6 +1,5 @@
-# Titius-Bode-Law
+# Distance_from_Sun
 
 The python code approximates distances of planets from Sun.
-It uses traditional Titius-Bode law but in a slightly different form.
 
 Samriddhi S. Maity
